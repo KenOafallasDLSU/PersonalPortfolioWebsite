@@ -2,11 +2,12 @@
   import Navbar from '../components/Navbar.vue'
   import Contact from '../components/Contact.vue'
   import WorkCarousel from '../components/WorkCarousel.vue'
+  import Projects from '../components/Projects.vue'
 
   export default{
     Name: "Main",
     components: {
-      Navbar, Contact, WorkCarousel
+      Navbar, Contact, WorkCarousel, Projects
     }
   }
 </script>
@@ -15,8 +16,8 @@
   <div>
     <Navbar />
 
-    <div id="about" class="container flex">
-      <div class="split-60 split-left">
+    <div id="about" class="container full-height flex">
+      <div class="split-60 split-left flex vertical justify-center">
         <h1>Kenneth Oafallas</h1>
         <div class="subtitle">Software Engineer</div>
         <p>
@@ -26,20 +27,18 @@
           I'm also certified JLPT N5 level, and a native English speaker.
         </p>
       </div>
-      <div class="split-40">
+      <div class="split-40 flex vertical justify-center">
         Cant possibly work
       </div>
     </div>
 
-    <WorkCarousel id="work" class="container"/>
+    <WorkCarousel id="work" />
 
-    <div id="projects" class="container">
-      My Personal Projects
-    </div>
+    <Projects id="projects" />
 
-    <div id="blog" class="container">
+    <!-- <div id="blog" class="container  navbar-padding">
       Check out my blog
-    </div>
+    </div> -->
 
     <Contact id="contact" />
   </div>

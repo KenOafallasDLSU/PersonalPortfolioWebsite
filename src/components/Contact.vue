@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="container flex vertical flex-center hero">
+  <div class="container full-height flex vertical full-center">
     <div>Open for work!</div>
     <p>I'm always up for an opportunity to learn new technologies and work on interesting projects.</p>
     <p>If you think I'm a good fit for your project, please don't hesitate to contact me via:</p>

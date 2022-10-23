@@ -1,0 +1,119 @@
+[
+  {
+    "title": "FCFS Scheduling Algorithm in C",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["low"],
+    "tech": ["C", "Operating Systems"]
+  },
+  {
+    "title": "Direct Cache Simulator in Java",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["low"],
+    "tech": ["Java"]
+  },
+  {
+    "title": "DNA Hamming Distance Calculator in x86-32 Assembly",
+    "thumbnail": "",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["low"],
+    "tech": ["x86-32 asm", "Bioinformatics"]
+  },
+  {
+    "title": "DNA Reverse Complementation in x86-32 Assembly Interfacing with C",
+    "thumbnail": "",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["low"],
+    "tech": ["x86-32 asm", "C", "Bioinformatics"]
+  },
+  {
+    "title": "Hyperbolic Sine Function Implementation in RISC-V Assembly",
+    "thumbnail": "",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["low"],
+    "tech": ["RISC-V"]
+  },
+  {
+    "title": "TilkTalk Real-Time Chat and Video Calls",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "https://github.com/KenOafallasDLSU/MOBDEVE-FinalProject-S11-Group8.git",
+    "tags": ["mobile"],
+    "tech": ["Kotlin", "Firebase", "RTDB", "WebRTC"]
+  },
+  {
+    "title": "Facial Expression Recognition on Low-Resolution Images Using Convolutional Neural Networks",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "https://drive.google.com/file/d/1h0aauAu-5AHf1deYHvtZ95d2F8C2ZN2g/view?usp=sharing",
+    "repolink": "",
+    "tags": ["ai"],
+    "tech": ["Python", "Keras", "Tensorflow", "Jupyter"]
+  },
+  {
+    "title": "Comparative Analysis between Decision Trees and Logistic Regression on Predicting Strokes",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "https://deepnote.com/project/STINTSY-Machine-Learning-MP-6tL78rZCSgupNVxo6DFpfw/%2Fstintsy.ipynb",
+    "repolink": "",
+    "tags": ["ai"],
+    "tech": ["Python", "Sci-kit Learn"]
+  },
+  {
+    "title": "FracturesAR: Multi-Marker Tabletop Augmented Reality for Anamorphic Illusions",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "https://drive.google.com/drive/folders/1Q1yse9TVh-kcS4K9W7EWDFdL9cXHOciC?usp=sharing",
+    "repolink": "https://theaellengo.github.io/ths-st3-html/",
+    "tags": ["games", "mobile"],
+    "tech": [""]
+  },
+  {
+    "title": "Tidey Hidey",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "https://kenoafallasdlsu.itch.io/tidy-hidey",
+    "repolink": "https://github.com/KenOafallasDLSU/GDFUNDA-GameJam2.git",
+    "tags": ["games"],
+    "tech": [""]
+  },
+  {
+    "title": "This portfolio site!",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "https://github.com/KenOafallasDLSU/portfolio.git",
+    "tags": ["web"],
+    "tech": ["HTML", "CSS", "JS", "Vue3", "Node"]
+  },
+  {
+    "title": "Keyboard Warrior: Speed Typing Platform",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["games", "web"],
+    "tech": [""]
+  },
+  {
+    "title": "Check with Me: Competitive Checkers Platform",
+    "thumbnail": "../src/assets/images/",
+    "description": "",
+    "projectlink": "",
+    "repolink": "",
+    "tags": ["games", "web"],
+    "tech": [""]
+  }
+]

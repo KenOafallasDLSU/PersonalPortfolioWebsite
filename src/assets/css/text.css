@@ -32,9 +32,6 @@ p {
   margin-bottom: 1em;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(255, 142, 236);
-  transition: 0.4s;
-  font-weight: bold;
+.text-align-left {
+  text-align: left;
 }
