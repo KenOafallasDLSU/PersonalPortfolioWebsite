@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&family=Raleway:wght@400;600&display=swap');
+
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -13,25 +15,80 @@ body {
 }
 
 h1 {
-  margin-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 45px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  margin: 0px;
 }
 
 h2 {
-  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+
+h2.light {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  
 }
 
 h3 {
-  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0px;
 }
 
 h4 {
-  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
 
 p {
-  margin-bottom: 1em;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text-align-left {
   text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.light {
+  color: white;
+}
+
+a.in-line {
+  font-weight: bold;
+  color: rgb(42, 42, 42);
+  text-decoration: underline;
+}
+
+a.in-line:hover {
+  color: rgb(113, 113, 113);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 13px;
+  }
 }

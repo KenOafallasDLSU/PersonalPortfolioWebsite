@@ -16,10 +16,10 @@
 </script>
 
 <template>
-  <div>
+  <div class="flex vertical no-shrink project-item">
     <button 
       @click="toggleAccordion()" 
-      class="flex accordion-head" 
+      class="flex accordion-head pointer" 
       :aria-expanded="isOpen"
     >
   
@@ -40,23 +40,38 @@
         <path
           d="M15 1.2l-7 7-7-7"
           stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          stroke-linecap="square"
+          stroke-linejoin="miter"
         />
       </svg>
     </button>
     
-    <div class="accordion-hidden flex" v-show="isOpen">
-      <img v-if="project.thumbnail != ''" class="company-logo" :src="project.thumbnail" />
+    <div class="accordion-hidden flex split" v-show="isOpen">
+      <img v-if="project.thumbnail != ''" class="project-img mr-2" :src="project.thumbnail" />
       <div class="flex vertical">
-        <p>{{ project.description }}</p>
-        <p v-if="project.projectlink != ''">Try it out! {{ project.projectlink}}</p>
-        <p v-if="project.repolink != ''">Repository Link {{ project.repolink}}</p>
-        <div class="flex">
-
+        <p class="mb-2">{{ project.description }}</p>
+        
+        <div class="flex split mb-1">
+          <a class="button-primary project-btn mr-2" v-if="project.projectlink != ''"
+           :href="project.projectlink" target="_blank" rel="noopener"
+          >
+            <div class="button-primary-outline-1"></div>
+            <div class="button-primary-outline-2"></div>
+            TRY IT OUT!
+          </a>
+          <a class="button-secondary repo-btn" v-if="project.repolink != ''"
+           :href="project.repolink" target="_blank" rel="noopener"
+          >
+            REPO LINK
+          </a>
+        </div>
+        <div class="flex" id="tech-stack-section">
+          <div class="inline tech-label">Tech Stack: </div>
+          <template v-for="tech in project.tech">
+            <div class="tech-tag">{{ tech }}</div>
+          </template>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
@@ -64,10 +79,39 @@
 <style scoped>
 .accordion-head {
   width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  border: none;
+}
+
+.no-shrink {
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .accordion-arrow {
-  max-height: 20px;
+  min-height: 15px;
+  max-height: 15px;
+}
+
+.accordion-hidden {
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 3rem;
+  margin-bottom: 10px;
 }
 
 .company-logo {
@@ -84,5 +128,44 @@
 .rotate-0 {
   transition: 0.3s;
   transform: rotate(0deg);
+}
+
+.tech-label {
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 1rem;
+}
+
+.tech-tag {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  margin-right: 1rem;
+  padding: 2px 8px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.project-item {
+  max-width: 95%;
+}
+
+@media screen and (max-width: 800px) {
+  #tech-stack-section {
+    display: none;
+  }
+
+  .accordion-hidden {
+    padding: 1rem;
+  }
 }
 </style>

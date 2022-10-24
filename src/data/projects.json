@@ -1,53 +1,53 @@
 [
   {
-    "title": "FCFS Scheduling Algorithm in C",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
-    "projectlink": "",
-    "repolink": "",
+    "title": "FCFS, NSJF, PSJF, RR Scheduling Algorithms in C",
+    "thumbnail": "../src/assets/images/archi-logo.png",
+    "description": "Simulates 4 different operating system scheduling algorithms for CPU time allocation. I implemented the Pre-emptive Shortest Job First (SJF) and the Round Robin (RR) algorithms. I also implemented the custom queue data structure that uses dynamic memory allocation.",
+    "projectlink": "../src/assets/images/archi-logo.png",
+    "repolink": "https://github.com/KenOafallasDLSU/CSOPESY-MP1-CPUSched.git",
     "tags": ["low"],
     "tech": ["C", "Operating Systems"]
   },
   {
     "title": "Direct Cache Simulator in Java",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
+    "thumbnail": "../src/assets/images/archi-logo.png",
+    "description": "Simulates direct caching provided a flow of addresses accessed by a program, to provide an approximation of its total memory access time. Has a GUI where users can input cache, memory and block sizes, as well as single-access time for cache and main memory.",
     "projectlink": "",
-    "repolink": "",
+    "repolink": "https://github.com/KenOafallasDLSU/CSARCH2-DirectCacheSimulator",
     "tags": ["low"],
     "tech": ["Java"]
   },
   {
     "title": "DNA Hamming Distance Calculator in x86-32 Assembly",
-    "thumbnail": "",
-    "description": "",
+    "thumbnail": "../src/assets/images/archi-logo.png",
+    "description": "Allows for recognition of target DNA sequence within a larger reference DNA sequence. Computes Hamming Distance between a reference DNA string and a shorter target DNA string, outputting substring positions on the reference DNA where target occurs within a certain Hamming Distance threshold.",
     "projectlink": "",
-    "repolink": "",
+    "repolink": "https://github.com/KenOafallasDLSU/Assembly-Coding-Challenges/blob/master/DNAHammingDistance.asm",
     "tags": ["low"],
     "tech": ["x86-32 asm", "Bioinformatics"]
   },
   {
     "title": "DNA Reverse Complementation in x86-32 Assembly Interfacing with C",
-    "thumbnail": "",
-    "description": "",
-    "projectlink": "",
-    "repolink": "",
+    "thumbnail": "../src/assets/images/archi-logo.png",
+    "description": "Generates reverse complements of DNA sequences, useful for orienting DNA strands. Interfaces with C to allow input and output on a console, while Assembly handles substituting DNA bases with their complement, such that A becomes T, G becomes C, and vice versa.",
+    "projectlink": "https://github.com/KenOafallasDLSU/Assembly-Coding-Challenges/blob/master/DNAReverseComplement.exe",
+    "repolink": "https://github.com/KenOafallasDLSU/Assembly-Coding-Challenges/blob/master/DNAReverseComplement.asm",
     "tags": ["low"],
     "tech": ["x86-32 asm", "C", "Bioinformatics"]
   },
   {
     "title": "Hyperbolic Sine Function Implementation in RISC-V Assembly",
-    "thumbnail": "",
-    "description": "",
+    "thumbnail": "../src/assets/images/archi-logo.png",
+    "description": "Implements a practical approximation of the Hyperbolic Sine, which is an infinite series, using a series of only 6 elements. Implemented with space efficiency in mind, reusing the same registers to store and calculate each iteration of the series",
     "projectlink": "",
-    "repolink": "",
+    "repolink": "https://github.com/KenOafallasDLSU/Assembly-Coding-Challenges/blob/master/HyperbolicSineFunction.asm",
     "tags": ["low"],
     "tech": ["RISC-V"]
   },
   {
     "title": "TilkTalk Real-Time Chat and Video Calls",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
+    "thumbnail": "../src/assets/images/tilktalk.png",
+    "description": "My team developed an android chat-and-video call app using Kotlin, Firebase, WebRTC. I implemented the backend to send and receive chats in real-time using Firebase and video calling with WebRTC. Also designed and implemented the layout for the chat bubbles in the chat threads",
     "projectlink": "",
     "repolink": "https://github.com/KenOafallasDLSU/MOBDEVE-FinalProject-S11-Group8.git",
     "tags": ["mobile"],
@@ -55,44 +55,44 @@
   },
   {
     "title": "Facial Expression Recognition on Low-Resolution Images Using Convolutional Neural Networks",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
-    "projectlink": "https://drive.google.com/file/d/1h0aauAu-5AHf1deYHvtZ95d2F8C2ZN2g/view?usp=sharing",
-    "repolink": "",
+    "thumbnail": "../src/assets/images/facial-recognition.png",
+    "description": "My team built a CNN model using Tensorflow Keras in Python to allow FER for security purposes. I implemented image transformations to produce a low-resolution dataset from the FER-2013 dataset and contributed to building the model. Wrote the analysis of results to evaluate the performance of the model.",
+    "projectlink": "",
+    "repolink": "https://drive.google.com/file/d/1h0aauAu-5AHf1deYHvtZ95d2F8C2ZN2g/view?usp=sharing",
     "tags": ["ai"],
     "tech": ["Python", "Keras", "Tensorflow", "Jupyter"]
   },
   {
     "title": "Comparative Analysis between Decision Trees and Logistic Regression on Predicting Strokes",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
-    "projectlink": "https://deepnote.com/project/STINTSY-Machine-Learning-MP-6tL78rZCSgupNVxo6DFpfw/%2Fstintsy.ipynb",
-    "repolink": "",
+    "thumbnail": "../src/assets/images/ai-logo.png",
+    "description": "My team built DTC and LR models using scikit-learn in Python to determine which is better at predicting whether a patient has suffered a stroke before. I implemented the LR model and hyperparameter tuning. I determined the metrics and analyzed the results to evaluate the performance of the models based on these metrics.",
+    "projectlink": "",
+    "repolink": "https://deepnote.com/project/STINTSY-Machine-Learning-MP-6tL78rZCSgupNVxo6DFpfw/%2Fstintsy.ipynb",
     "tags": ["ai"],
     "tech": ["Python", "Sci-kit Learn"]
   },
   {
     "title": "FracturesAR: Multi-Marker Tabletop Augmented Reality for Anamorphic Illusions",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
+    "thumbnail": "../src/assets/images/fractures-ar.png",
+    "description": "My undergraduate thesis, focusing on applications of AR/VR. Fractures AR is a 3D augmented reality mobile puzzle game made with Unity C# and Vuforia where players find the position wherein a sliced and distorted 3D model appears normal and whole by moving their camera. I implemented the pipeline that procedurally transforms pre-sliced 3D models into anamorphic versions by applying trigonometric concepts to matrix transformations, the solution checks for if the player is holding the camera in the correct position relative to the AR model, and the overall marker tracking and management system.",
     "projectlink": "https://drive.google.com/drive/folders/1Q1yse9TVh-kcS4K9W7EWDFdL9cXHOciC?usp=sharing",
     "repolink": "https://theaellengo.github.io/ths-st3-html/",
     "tags": ["games", "mobile"],
-    "tech": [""]
+    "tech": ["Unity", "C#", "Vuforia", "AR"]
   },
   {
     "title": "Tidey Hidey",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
+    "thumbnail": "../src/assets/images/tidey-hidey.png",
+    "description": "GDAP Game On 2021 Best Gameplay Nominee. Tidey Hidey is a 3D first-person simulation game using Unity C# where players click on surfaces to clean them. Physically Based Rendering is used extensively for realistic surfaces. I implemented the input system for movement and to register clicks on 3D objects via raycasting, core gameplay logic that changes object materials on click and on regular intervals, and the events system that allows other systems to communicate. I also implemented atmospheric light-based animations.",
     "projectlink": "https://kenoafallasdlsu.itch.io/tidy-hidey",
     "repolink": "https://github.com/KenOafallasDLSU/GDFUNDA-GameJam2.git",
     "tags": ["games"],
-    "tech": [""]
+    "tech": ["Unity", "C#", "Blender", "Shaders"]
   },
   {
     "title": "This portfolio site!",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
+    "thumbnail": "../src/assets/images/main-logo.png",
+    "description": "A static website as a way to practice graphic design, creating custom UI elements, responsive design, and content management from local data stores. I implemented the carousel, accordion and filters using Vue3. I plan on extending the site with a remote CMS to allow for blogs.",
     "projectlink": "",
     "repolink": "https://github.com/KenOafallasDLSU/portfolio.git",
     "tags": ["web"],
@@ -100,20 +100,20 @@
   },
   {
     "title": "Keyboard Warrior: Speed Typing Platform",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
-    "projectlink": "",
-    "repolink": "",
+    "thumbnail": "../src/assets/images/keyboard-warrior.png",
+    "description": "Competitive 1v1 speed typing web platform using VueJS and Firebase hosted on Google Cloud. I acted as Project Lead, maintaining MVVM compliance, project goals and schedule. I implemented networking features that allow players to see opponent's progress in real-time, stable matchmaking, and allow multiple games to be played asynchronously by leveraging the real-time database.",
+    "projectlink": "https://stdiscm-keyboardwarrior.web.app/",
+    "repolink": "https://github.com/KenOafallasDLSU/STDISCM-KeyboardWarrior",
     "tags": ["games", "web"],
-    "tech": [""]
+    "tech": ["HTML", "CSS", "JS", "Vue", "Firebase", "Google Cloud"]
   },
   {
     "title": "Check with Me: Competitive Checkers Platform",
-    "thumbnail": "../src/assets/images/",
-    "description": "",
-    "projectlink": "",
-    "repolink": "",
+    "thumbnail": "../src/assets/images/check-with-me.png",
+    "description": "Competitive checkers web platform using VueJS and Firebase hosted on Google Cloud. I implemented part of the logic that checks whether an attempted move is valid. Created unit tests with Jest to test this logic. Also made features utilizing the database and networking such as leaderboards, ELO calculation and matchmaking that are updated in real-time.",
+    "projectlink": "https://check-with-me.web.app/",
+    "repolink": "https://github.com/KenOafallasDLSU/check-with-me.git",
     "tags": ["games", "web"],
-    "tech": [""]
+    "tech": ["HTML", "CSS", "JS", "Vue", "Firebase", "Google Cloud"]
   }
 ]

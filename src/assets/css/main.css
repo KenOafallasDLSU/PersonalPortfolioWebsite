@@ -1,11 +1,9 @@
+
+
 body {
   margin: 0px;
   padding: 0px;
-}
-
-.hero {
-  height: 100vh;
-  width: 100vw;
+  overflow-x: hidden;
 }
 
 .full-height {
@@ -17,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1440px;
   width: 75vw;
   margin: auto;
 }
@@ -53,4 +51,47 @@ body {
 
 .split-60 {
   width: 60%;
+}
+
+.split-55 {
+  width: 55%;
+}
+
+.split-50 {
+  width: 50%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.inline {
+  display: inline;
+}
+
+.relative {
+  display: relative;
+}
+
+@media only screen and (min-width: 3000px) {
+  
+  .full-height {
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .split {
+    flex-direction: column;
+  }
+
+  .mob-justify-center {
+    justify-content: center;
+    margin-left: 20px;
+  }
 }

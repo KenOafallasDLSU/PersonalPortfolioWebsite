@@ -17,73 +17,94 @@
 </script>
 
 <template>
-  <div id="navbar" class="navbar">
-    <div class="navbar-left">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <!-- <a href="#blog">Blog</a> <br> -->
-    </div>
-    
-    <div class="navbar-right">
-      <a href="mailto:kn.oafallas@gmail.com" target="_blank" rel="noopener">Email</a>
-      <a href="https://www.linkedin.com/in/kenneth-oafallas/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/KenOafallasDLSU" target="_blank" rel="noopener">Github</a>
+  <div id="navbar" class="navbar-bg">
+    <div class="navbar-content">
+      <div class="navbar-left">
+        <a class="mr-2" href="#about">About</a>
+        <a class="mr-2" href="#work">Work</a>
+        <a class="mr-2" href="#projects">Projects</a>
+        <a class="mr-2" href="#contact">Contact</a>
+        <!-- <a href="#blog">Blog</a> <br> -->
+      </div>
+      
+      <div class="navbar-right">
+        <a class="ml-2" href="mailto:kn.oafallas@gmail.com" target="_blank" rel="noopener">Email</a>
+        <a class="ml-2" href="https://www.linkedin.com/in/kenneth-oafallas/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="ml-2" href="https://github.com/KenOafallasDLSU" target="_blank" rel="noopener">Github</a>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.navbar {
+.navbar-bg {
   position: fixed;
-  width: 75vw;
+  width: 100vw;
   height: 10vh;
-  padding-left: 12.5vw;
-  padding-right: 12.5vw;
-
-  font-size: 20px;
-
-  background-color: rgb(251, 251, 251);
-  border-bottom: 1px solid rgb(52, 52, 52);
-
-  display: flex;
-  justify-content: space-between;
+  
+  background-color: black;
+  border-bottom: 5px solid rgb(82, 82, 82);
 
   transition: top 0.3s;
 
   z-index: 99999;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 12.5vw;
+  padding-right: 12.5vw;
+  max-width: 1440px;
+
+  width: 100%;
+  margin: auto;
+
+  font-size: 20px;
 }
 
 .navbar-left {
   height: 100%;
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+
+  max-width: 600px;
 }
 
 .navbar-right {
   height: 100%;
   width: 25%;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 142, 236);
-  transition: 0.4s;
+  color: white;
   font-weight: bold;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(69, 69, 69);
+
+  font-family: 'Raleway', sans-serif;
 }
 
 a:hover {
-  color: black;
-  -webkit-text-fill-color: rgb(255, 142, 236); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
+  color: white;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+@media screen and (max-width: 800px) {
+  #navbar {
+    display: none;
+  }
 }
 </style>
